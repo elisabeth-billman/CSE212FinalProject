@@ -6,9 +6,10 @@ A Queue is the opposite of a stack. A Stack is “Last In, First Out” however 
 To display a picture use the format: 
 ![Example of Queue](Queue_example.png)
 
-##Dequeue and Enqueue The easiest way to imagine the process of how a queue function works is to imagine a line at the grocery store to checks out. The is the front of the line and the back of the line. As people check out their groceries at the front of the line, there are people continuing to enter the line at the back and the line empties and fills continuously. When the person at the front of the line checks out and leaves the line this is an example of a dequeue operation. When someone joins the back of the line this is an example of an enqueue operation.
+## Dequeue and Enqueue 
+The easiest way to imagine the process of how a queue function works is to imagine a line at the grocery store to checks out. The is the front of the line and the back of the line. As people check out their groceries at the front of the line, there are people continuing to enter the line at the back and the line empties and fills continuously. When the person at the front of the line checks out and leaves the line this is an example of a dequeue operation. When someone joins the back of the line this is an example of an enqueue operation.
 
-##Queues in Python
+## Queues in Python
 When using python a queue can be represented using a list. The user can dequeue an item from the queue by using , [0] and del. This operation obtains the front item of the list by accessing the index and then the del removes the item from the list/queue. The user can enqueue an item to the back of the list by using the appended function.  The size of the queue can be found by using the len function. The performance of the queue using a python list is based on the performance of the dynamic array.
 
 There is also a class in the python library called deque. This function stands for double ended queue and has a better performance. There is also better dequeue function performance when a queue is used with a linked list instead of a dynamic array. Since there is typically a reference for the first and last element in a queue the enqueue and dequeue function can be performed in constant time O(1).
@@ -20,7 +21,7 @@ dequeue()| Remove and return the item from the front of the queue; or pop off in
 size()| Return the size of the queue | length = len(my_queue)
 empty() | Returns true if the length of the queue is zero. | if len(my_queue) == 0:
 
-##Testing
+## Testing
 Testing is a process of demonstrating specific scenarios will result and then compare the results with expected outcomes. It is always important to implement as many test case scenarios as possible to ensure your code doesn’t have any bugs. Testing can also help a programmer better understand the requirements of the software.
 
 
