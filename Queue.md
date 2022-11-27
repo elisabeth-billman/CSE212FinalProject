@@ -24,5 +24,25 @@ empty() | Returns true if the length of the queue is zero. | if len(my_queue) ==
 ## Testing
 Testing is a process of demonstrating specific scenarios will result and then compare the results with expected outcomes. It is always important to implement as many test case scenarios as possible to ensure your code doesn’t have any bugs. Testing can also help a programmer better understand the requirements of the software.
 
+## Example problem
+### creating a queue
+
+```python
+
+from collections import deque
+
+my_queue = deque()
+my_queue.append(5) #the append function is what enqueues an item to the queue
+my_queue.append(10)
+my_queue.append(15)
+my_queue.append(20)
+my_queue.append(25)
+print(my_queue)
+print(my_queue.popleft()) # the pop function dequeues an item from the front of the queue
+print(my_queue)
+
+
+```
+
 
 
