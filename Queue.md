@@ -3,7 +3,6 @@
 ## Introduction
 A Queue is the opposite of a stack. A Stack is “Last In, First Out” however a Queue is “First In, First Out.” A Queue can be implemented using a python list. A Queue is used when you want things to happen in the order they were called. A queue data structure is important because is can be used for when things don’t have to be processed right away, but do have to stay in the first in first out order. 
 
-To display a picture use the format: 
 ![Example of Queue](Queue_example.png)
 
 ## Dequeue and Enqueue 
