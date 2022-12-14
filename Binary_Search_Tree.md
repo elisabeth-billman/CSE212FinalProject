@@ -95,5 +95,5 @@ print(preOrder(result))
 
 ## Practice Problem: 
 
-## Write a Python program to create a Balanced Binary Search Tree (BST) where array elements are sorted in ascending order.
+#### Write a Python program to create a Balanced Binary Search Tree (BST) where array elements are sorted in ascending order.
 array = ([1, 2, 3, 4, 5, 6, 7])
