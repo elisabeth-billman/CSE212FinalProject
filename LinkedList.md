@@ -53,7 +53,7 @@ To remove from the middle:
 ## Advantages and Disadvantages of Linked List
 One main thing that distinguishes a linked list from an array is that in an array the elements are indexed. However, in a linked list you have to start at the head and move through one by one until you reach the desired element. Linked lists are a bit slower in this way because it is done with linear time. In big O notation it is O(n). But it is faster to insert and delete an element into a linked list. Inserting an element right to the front of the Linked list can be done in constant time. 
 
-## Example
+## Example Problem
 ### create a linked list
 Write a Python program to create a linked list.
 
@@ -100,3 +100,5 @@ for val in items.iterate_item():
 print("\nhead.data: ",items.head.data)
 print("tail.data: ",items.tail.data)
 ```
+
+## Practice Problem: Write a Python program to delete the first item from a singly linked list.
