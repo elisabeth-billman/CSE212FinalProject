@@ -102,3 +102,5 @@ print("tail.data: ",items.tail.data)
 ```
 
 #### Practice Problem: Write a Python program to delete the first item from a singly linked list.
+
+[Welcome Page](Welcome.md)
